@@ -13,6 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Swagger2配置信息
+ * 固定的访问地址 http:localhost:80821/wagger-ui.html
  * @author rbing
  * @create 2022-08-12-17:27
  **/
@@ -50,7 +51,7 @@ public class Swagger2Config {
                 .title("网站-API文档")
                 .description("本文档描述了网站微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("atguigu", "http://rbing1995.com", "rbing1995@gmail.com"))
+                .contact(new Contact("rbing", "http://rbing1995.com", "rbing1995@gmail.com"))
                 .build();
     }
 
@@ -60,7 +61,7 @@ public class Swagger2Config {
                 .title("后台管理系统-API文档")
                 .description("本文档描述了后台管理系统微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("atguigu", "http://rbing1995.com", "rbing1995@gmail.com"))
+                .contact(new Contact("rbing", "http://rbing1995.com", "rbing1995@gmail.com"))
                 .build();
     }
 
